@@ -1,0 +1,13 @@
+{
+  "name": "@agent-platform/worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@agent-platform/db": "workspace:*",
+    "@agent-platform/shared": "workspace:*"
+  }
+}
